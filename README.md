@@ -4,9 +4,13 @@ SciDB Module
 
 # Prerequest
 To run this Module; the system should contains the following:
+
 •	Ubuntu operating system  (to run scidb)
+
 •	Configured SciDB
+
 •	Services : ssh, postgres, server (I use tomcat)
+
 
 
 
