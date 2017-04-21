@@ -14,11 +14,17 @@ To run this Module; the system should contains the following:
 # Steps to compilation 
 
 1- Download the 52°North Sensor Observation Service (SOS) version 4.4.x from the repository https://github.com/52North/SOS 
+
 2- Download the current repository "Scidb"
+
 3- move the scidb folder to the 52North SOS
+
 4- Add 
+
 5- This project is managed with Maven3. Simply run mvn clean install to create a deployable .WAR file
+
 6- Upload the War file to te server, the connection to the SciDB should be accomlpished automaticly 
+
  
  NOTE: the ssh, postgresql services and SciDB should be running
 
