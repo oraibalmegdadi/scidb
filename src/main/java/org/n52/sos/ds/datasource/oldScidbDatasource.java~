@@ -1,0 +1,187 @@
+/**
+ * Copyright (C) 2012-2015 52°North Initiative for Geospatial Open Source
+ * Software GmbH
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License version 2 as published
+ * by the Free Software Foundation.
+ *
+ * If the program is linked with libraries which are licensed under one of
+ * the following licenses, the combination of the program with the linked
+ * library is not considered a "derivative work" of the program:
+ *
+ *     - Apache License, version 2.0
+ *     - Apache Software License, version 1.0
+ *     - GNU Lesser General Public License, version 3
+ *     - Mozilla Public License, versions 1.0, 1.1 and 2.0
+ *     - Common Development and Distribution License (CDDL), version 1.0
+ *
+ * Therefore the distribution of the program linked with libraries licensed
+ * under the aforementioned licenses, is permitted by the copyright holders
+ * if the distribution is compliant with both the GNU General Public
+ * License version 2 and the aforementioned licenses.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ */
+package org.n52.sos.datasource;
+
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+import org.n52.sos.config.SettingDefinition;
+import org.n52.sos.config.settings.StringSettingDefinition;
+import org.n52.sos.ds.Datasource;
+
+import com.google.common.collect.Sets;
+
+public class ScidbDatasource implements Datasource {
+
+	private static final String DIALECT = "SciDB";
+	private static final String KEY_SCIDB_URI = "uri.path.scidb";
+	private static final String DEFAULT_SCIDB_URI = "/SciDB";
+
+	protected final StringSettingDefinition createScidbUri() {
+		return new StringSettingDefinition().setGroup(BASE_GROUP).setOrder(1)
+				.setKey(KEY_SCIDB_URI).setTitle("Path to SciDB-Directory")
+				.setDefaultValue(DEFAULT_SCIDB_URI);
+	}
+
+	@Override
+	public final String getDialectName() {
+		return DIALECT;
+	}
+
+	@Override
+	public final Set<SettingDefinition<?, ?>> getSettingDefinitions() {
+		return Sets.<SettingDefinition<?, ?>> newHashSet(createScidbUri(),
+				createScidbUri());
+
+	}
+
+	@Override
+	public final Set<SettingDefinition<?, ?>> getChangableSettingDefinitions(
+			final Properties arg0) {
+		return Sets.<SettingDefinition<?, ?>> newHashSet(createScidbUri(),
+				createScidbUri());
+	}
+
+	@Override
+	public final boolean checkIfSchemaExists(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public final boolean checkIfSchemaExists(final Properties arg0,
+			final Map<String, Object> arg1) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public final boolean checkSchemaCreation(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void clear(final Properties arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public final String[] createSchema(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+		return new String[0];
+	}
+
+	@Override
+	public final String[] dropSchema(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+		return new String[0];
+	}
+
+	@Override
+	public void execute(final String[] arg0, final Map<String, Object> arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public final Properties getDatasourceProperties(
+			final Map<String, Object> settings) {
+		Properties p = new Properties();
+		p.put(KEY_SCIDB_URI, settings.get(KEY_SCIDB_URI));
+		return p;
+	}
+
+	@Override
+	public final Properties getDatasourceProperties(final Properties arg0,
+			final Map<String, Object> settings) {
+		// TODO Auto-generated method stub
+		return getDatasourceProperties(settings);
+	}
+
+	@Override
+	public final boolean needsSchema() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public final boolean supportsClear() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void validateConnection(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void validateConnection(final Properties arg0,
+			final Map<String, Object> arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void validatePrerequisites(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void validatePrerequisites(final Properties arg0,
+			final Map<String, Object> arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void validateSchema(final Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void validateSchema(final Properties arg0,
+			final Map<String, Object> arg1) {
+		// TODO Auto-generated method stub
+
+	}
+
+    @Override
+    public String[] updateSchema(Map<String, Object> arg0) {
+        // TODO Auto-generated method stub
+        return new String[0];
+    }
+
+}
