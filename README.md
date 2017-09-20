@@ -19,14 +19,12 @@ To run this Module; the system should contains the following:
 
 3- move the scidb folder to the 52North SOS
 
-4- Add 
+4- This project is managed with Maven3. Simply run mvn clean install to create a deployable .WAR file
 
-5- This project is managed with Maven3. Simply run mvn clean install to create a deployable .WAR file
-
-6- Upload the War file to te server, the connection to the SciDB should be accomlpished automaticly 
+4- Upload the War file to te server, the connection to the SciDB should be accomlpished automaticly 
 
  
- NOTE: the ssh, postgresql services and SciDB should be running
+ ***NOTE: the ssh, postgresql services and SciDB should be running
 
 
 
