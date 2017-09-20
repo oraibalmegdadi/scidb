@@ -18,6 +18,7 @@ To run this Module; the system should contains the following:
 2- Download the current repository "Scidb"
 
 3- move the scidb folder to the 52North SOS
+
 4-Add the required dependencies 
 
 5- This project is managed with Maven3. Simply run mvn clean install to create a deployable .WAR file
@@ -28,8 +29,11 @@ To run this Module; the system should contains the following:
 
 
 # Using the webapp without compilation 
+
 1- find the war file under  (scidb\webapp\target) 
+
 2- upload the webapp to the server  
+
 3- Select the SciDB option from the drop down list and enter the configration details to connect to the SciDB array database
 
 
