@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="webapp">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="profile-xml-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/profile-xml/profile-xml">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="profile-coding-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/profile-coding/profile-coding">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="api-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/api/api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqlite-config-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sqlite-config/sqlite-config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="admin-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/admin/admin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cache-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/cache/cache">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gc-dao-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gc-dao/gc-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-ows-v110-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-ows-v110/coding-ows-v110">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-sensorML-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-sensorML/coding-sensorML">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-sensorML-v101-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-sensorML-v101/coding-sensorML-v101">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-sensorML-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-sensorML-v20/coding-sensorML-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-sos-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-sos-v20/coding-sos-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-sos-v100-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-sos-v100/coding-sos-v100">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-json-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-json/coding-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-json-common-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-json-common/coding-json-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-wml-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-wml-v20/coding-wml-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/core-v20/core-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enhanced-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/enhanced-v20/enhanced-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="transactional-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/transactional-v20/transactional-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="resultHandling-v20-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/resultHandling-v20/resultHandling-v20">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="request-response-coordinate-transformer-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/request-response-coordinate-transformer/request-response-coordinate-transformer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-v100-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/core-v100/core-v100">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SciDB-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SciDB/SciDB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-session-factory-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-session-factory/hibernate-session-factory">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-common-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-common/hibernate-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-dao-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-dao/hibernate-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-feature-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-feature/hibernate-feature">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-datasource-common-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-datasource-common/hibernate-datasource-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-datasource-postgres-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-datasource-postgres/hibernate-datasource-postgres">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-datasource-mysql-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-datasource-mysql/hibernate-datasource-mysql">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-datasource-h2-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate-datasource-h2/hibernate-datasource-h2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binding-kvp-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binding-kvp/binding-kvp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binding-soap-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binding-soap/binding-soap">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binding-pox-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binding-pox/binding-pox">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binding-json-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binding-json/binding-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binding-exi-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binding-exi/binding-exi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-exi-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-exi/coding-exi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rest-code-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/rest-code/rest-code">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rest-xml-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/rest-xml/rest-xml">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gda-operation-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gda-operation/gda-operation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gda-hibernate-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gda-hibernate/gda-hibernate">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="do-xml-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/do-xml/do-xml">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="do-core-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/do-core/do-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="do-json-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/do-json/do-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="do-hibernate-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/do-hibernate/do-hibernate">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="do-kvp-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/do-kvp/do-kvp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="client-controller-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/client-controller/client-controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="install-controller-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/install-controller/install-controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="admin-controller-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/admin-controller/admin-controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common-controller-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common-controller/common-controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="third-party-ncname-resolver-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/third-party-ncname-resolver/third-party-ncname-resolver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ereporting-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ereporting/ereporting">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="inspire-code-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/inspire-code/inspire-code">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="coding-aqd-v10-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/coding-aqd-v10/coding-aqd-v10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-aqd-v10-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/core-aqd-v10/core-aqd-v10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="api-aqd-v10-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/api-aqd-v10/api-aqd-v10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aqd-split-and-merge-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aqd-split-and-merge/aqd-split-and-merge">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abstract-identifier-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abstract-identifier/abstract-identifier">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="flexible-identifier-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/flexible-identifier/flexible-identifier">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="prefixed-identifier-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/prefixed-identifier/prefixed-identifier">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ereporting-identifier-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ereporting-identifier/ereporting-identifier">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="split-and-merge-4.3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/split-and-merge/split-and-merge">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/views?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/slf/?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="52n-sos-webapp##4.3.3"/>
+        <property name="java-output-path" value="/webapp/target/classes"/>
+    </wb-module>
+</project-modules>

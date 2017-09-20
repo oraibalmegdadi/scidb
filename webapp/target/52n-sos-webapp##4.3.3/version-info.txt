@@ -1,0 +1,13 @@
+General Infos:
+==============
+project = 52North SOS Reference Implementation (webapp)
+version = 4.3.3
+builddate = 2016-10-28 10:47:08+0200
+
+Subversion Infos:
+=================
+repository = ${git.repository}
+path = master
+revision = db2075e4b433f6e94fd501792cad2e6e19707ac6
+lastCommitMessage = Increase version to 4.3.3 and update release notes
+lastCommitDate = 2015-08-17 13:17:58+0200
